@@ -16,25 +16,31 @@ let = theChoice = int(input("What do you want to spam with \n"
                             "4.The words How About No\n"
                             "5.Spam Hello\n"
                             "6.idk pick something random\n"
+                            "7.Counting\n"
                             "Choice: "))
 var = thing = 1
 
 
 def spammer():
-
-
-
-
-    
     time.sleep(2)
-
-    if theChoice == 7:
-        var = randNum = random.randrange(0, 4)
+    if theChoice == 6:
+        var = randNum = random.randrange(0, 5)
         var = fileName = open(fileArray[randNum], "r")
         print("the random generator picked ", randNum, " for you!")
         for word in fileName:
             pyautogui.typewrite(word)
             pyautogui.press("enter")
+
+    if theChoice == 7:
+        let = start = int(input("What number do you want to start at"
+                                "Start: "))
+        let = numbers = open("Numbers", "r")
+        for word in numbers:
+            time.sleep(0.02)# pretty useless but it will be use full soon :)
+            let = addedNums = start + 1
+            pyautogui.typewrite(str(addedNums))
+            pyautogui.press("enter")
+            start = addedNums
 
 
 
@@ -47,9 +53,4 @@ def spammer():
 
 
 if thing == 1:
-    madnessStopper = int(input("to stop the madness early type 2\n"
-              "Type: "))
-    madnessStopper = thing
     spammer()
-
-
