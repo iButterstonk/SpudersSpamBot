@@ -3,7 +3,7 @@ import time
 import random
 
 let = fileArray = ["BeeMovie",
-                   "NeverGonnaGiveUp",
+                   "NeverGonnaGiveUp"e,
                    "randomgiberish",
                    "FORTNITE",
                    "howboutno",
@@ -37,6 +37,7 @@ def spammer():
         var = fileName = open("join")
         for word in fileName:
             pyautogui.typewrite(word)
+            time.sleep(.5)
             pyautogui.press("enter")
 
     if theChoice == 7:
@@ -44,14 +45,11 @@ def spammer():
                                 "Start: "))
         let = numbers = open("Numbers", "r")
         for word in numbers:
-            time.sleep(0.02)# pretty useless but it will be usefull soon :)
+            time.sleep(0.02)  # pretty useless but it will be usefull soon :)
             let = addedNums = start + 1
             pyautogui.typewrite(str(addedNums))
             pyautogui.press("enter")
             start = addedNums
-
-
-
 
     else:
         var = fileName = open(fileArray[theChoice], "r")
@@ -62,4 +60,3 @@ def spammer():
 
 if thing == 1:
     spammer()
-
