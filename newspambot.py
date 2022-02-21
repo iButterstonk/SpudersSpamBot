@@ -2,16 +2,7 @@ import pyautogui
 import time
 
 
-def chooser():
-    var = file = ["NeverGonnaGiveUp.txt", "BeeMovie.txt",
-                  "FORTNITE.txt", "Hello.txt",
-                  "howaboutno.txt", "join.txt"]
-    var = bro = input(file)
-    print(bro)
-
-
 def spamBot():
-    chooser()
     time.sleep(5)
     # open the text file
     file = open('NeverGonnaGiveUp.txt', 'r')
@@ -24,7 +15,7 @@ def spamBot():
         # write the text file
         pyautogui.typewrite(text)
         # make a delay to make the spambot more realistic
-        time.sleep(1)
+        time.sleep(2.5)
         # make a new line
         pyautogui.press('enter')
 
