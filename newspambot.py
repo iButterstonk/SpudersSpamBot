@@ -1,3 +1,4 @@
+from subprocess import call
 import pyautogui
 import time
 
@@ -15,7 +16,7 @@ def spamBot():
         # write the text file
         pyautogui.typewrite(text)
         # make a delay to make the spambot more realistic
-        time.sleep(2.5)
+        time.sleep(4)
         # make a new line
         pyautogui.press('enter')
 
