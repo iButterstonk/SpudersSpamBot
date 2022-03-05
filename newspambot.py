@@ -1,3 +1,4 @@
+from pickle import LONG_BINGET
 from subprocess import call
 import pyautogui
 import time
