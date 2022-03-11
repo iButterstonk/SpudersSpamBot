@@ -1,9 +1,9 @@
 Spambot
-1. Adding a stop function 
+1. **Adding a stop function**
 2. Adding new texts when inspiration strikes
 3. Adding Wikipedia articles becasue i'm me
 4. Adding actual random characters
-5.
+5. idk
 
 
 
