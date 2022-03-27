@@ -1,5 +1,6 @@
 from pickle import LONG_BINGET
 from subprocess import call
+from tkinter import wantobjects
 import pyautogui
 import time
 
