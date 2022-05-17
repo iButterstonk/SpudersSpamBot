@@ -2,7 +2,7 @@
 import pyautogui
 import time
 
-inputNumber = int(input("How many times do you want to spam? "))
+inputNumber = int(input("How many times do you want to party? "))
 
 
 def partyBot(input):
